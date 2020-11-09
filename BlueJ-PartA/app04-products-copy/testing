@@ -1,0 +1,47 @@
+stockDem1.runDemo();
+101: Clock Radio stock level: 1
+102: Mobile Phone stock level: 0
+103: Microwave Oven stock level: 2
+104: Toaster Oven stock level: 0
+105: Kettle stock level: 0
+106: Vaccum Cleaner stock level: 0
+107: Hair Dryer stock level: 2
+108: Straighteners stock level: 0
+109: Blender stock level: 0
+110: Juicer stock level: 1
+============
+Demonstrating Product Delivery
+============
+Product Delivered : 101: Clock Radio stock level: 2
+Product Delivered : 102: Mobile Phone stock level: 2
+Product Delivered : 103: Microwave Oven stock level: 8
+Product Delivered : 104: Toaster Oven stock level: 3
+Product Delivered : 105: Kettle stock level: 2
+Product Delivered : 106: Vaccum Cleaner stock level: 5
+Product Delivered : 107: Hair Dryer stock level: 8
+Product Delivered : 108: Straighteners stock level: 6
+Product Delivered : 109: Blender stock level: 6
+Product Delivered : 110: Juicer stock level: 3
+============
+Demonstrating Product Sell
+============
+Insufficient stock = 2amount ordered = 5
+Sold 2 of Mobile Phone
+Sold 4 of Microwave Oven
+Insufficient stock = 3amount ordered = 5
+Insufficient stock = 2amount ordered = 5
+Sold 3 of Vaccum Cleaner
+Sold 5 of Hair Dryer
+Sold 5 of Straighteners
+Sold 6 of Blender
+Insufficient stock = 3amount ordered = 6
+101: Clock Radio stock level: 0
+102: Mobile Phone stock level: 0
+103: Microwave Oven stock level: 4
+104: Toaster Oven stock level: 0
+105: Kettle stock level: 0
+106: Vaccum Cleaner stock level: 2
+107: Hair Dryer stock level: 3
+108: Straighteners stock level: 1
+109: Blender stock level: 0
+110: Juicer stock level: 0

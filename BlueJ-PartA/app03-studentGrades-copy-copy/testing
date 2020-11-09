@@ -1,0 +1,55 @@
+Module module1 = new Module("Programming concepts", "CO452");
+module1.print();
+Module: Programming concepts CO452 Mark = 0
+module1.awardMark(25);
+module1.print();
+Module: Programming concepts CO452 Mark = 25
+Module module2 = new Module("Game Design", "CO453");
+module2.awardMark(17);
+module2.print();
+Module: Game Design CO453 Mark = 17
+Module module3 = new Module("Computer architectures", "CO451");
+module3.print();
+Module: Computer architectures CO451 Mark = 0
+module3.awardMark(20);
+Module module4 = new Module("3D Modelling", "CO450");
+module4.awardMark(24);
+Course course1 = new Course("G400", "Game Design");
+module4.print();
+Module: 3D Modelling CO450 Mark = 24
+Student student1 = new Student("John Smith", "22012222");
+Course course1 = new Course("G400", "Game Design");
+student1.enrolOnCourse(course1);
+Module module1 = new Module("Programming", "CO452");
+module1.awardMark(30);
+module1.print();
+Module: Programming CO452 Mark = 30
+course1.print();
+Course G400 - Game Designnull
+student1.print();
+John Smith, student ID: 22012222, credits: 0
+Module module2 = new Module("3D Modelling", "CO451");
+module2.awardMark(20);
+Module module3 = new Module("Games Design", "CO451");
+module3.awardMark(17);
+module2.print();
+Module: 3D Modelling CO451 Mark = 20
+module3.print();
+Module: Games Design CO451 Mark = 17
+Module module4 = new Module("Computer Architectures", "CO453");
+module4.print();
+Module: Computer Architectures CO453 Mark = 0
+module4.awardMark(20);
+module4.print();
+Module: Computer Architectures CO453 Mark = 20
+course1.addMark(20, 1);
+Please enter a valid modulecourse1.addMark(23, 2);
+Please enter a valid modulecourse1.addMark(25, 3);
+Please enter a valid modulecourse1.addMark(17, 4);
+course1.print();
+Course G400 - Game Designnull
+course1.print();
+Course G400 - Game Designnull
+Course course1 = new Course("G400", "Game Design");
+course1.convertToGrade(73)
+    returned Object A

@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Ticket
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Ticket\ here.\r\n\ Ticket\ class\ stores\ information\ about\ the\ multiple\ tickets\ being\ offered\ \r\n\ by\ the\ machine,\ including\ price,\ location\ and\ date\ issued\r\n\ @author\ (Josh\ Mynard)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=destination\ price
+comment1.target=Ticket(java.lang.String,\ int)
+comment1.text=\r\n\ Acts\ as\ a\ constructor\ for\ objects\ of\ class\ Ticket\ for\ setting\ the\ price\ \r\n\ and\ destination,\ the\ date\ will\ take\ the\ currently\ used\ systems\ date\r\n\ and\ time\r\n
+comment2.params=
+comment2.target=int\ getPrice()
+comment3.params=
+comment3.target=java.lang.String\ getDestination()
+comment4.params=
+comment4.target=void\ print()
+comment4.text=\ \r\n\ prints\ all\ details\ of\ the\ ticket\ like\ date,\ location\ and\ price\ \r\n
+numComments=5

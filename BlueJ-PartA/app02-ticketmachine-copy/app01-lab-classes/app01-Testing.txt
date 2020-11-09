@@ -1,0 +1,57 @@
+LabClass co452Lab = new LabClass(3);
+Student student1 = new Student("Charlie", "2901");
+Student studentCharlie = new Student("Charlie", "2901");
+Student studentJoe = new Student("Joe", "2902");
+Student studentJack = new Student("Jack", "2093");
+studentCharlie.addCredits(20);
+studentJoe.addCredits(20);
+studentJack.addCredits(20);
+co452Lab.printList();
+Lab class unknown
+Instructor: unknown   Room: unknown
+Class list:
+Number of students: 0
+co452Lab.enrollStudent(studentCharlie);
+co452Lab.enrollStudent(studentJoe);
+co452Lab.enrollStudent(studentJack);
+co452Lab.setRoom("G301");
+co452Lab.printList();
+Lab class unknown
+Instructor: unknown   Room: G301
+Class list:
+Charlie, student ID: 2901, credits: 20
+Joe, student ID: 2902, credits: 20
+Jack, student ID: 2093, credits: 20
+Number of students: 3
+co452Lab.setTime("Friday, 11am");
+co452Lab.printList();
+Lab class Friday, 11am
+Instructor: unknown   Room: G301
+Class list:
+Charlie, student ID: 2901, credits: 20
+Joe, student ID: 2902, credits: 20
+Jack, student ID: 2093, credits: 20
+Number of students: 3
+studentCharlie.print();
+Charlie, student ID: 2901, credits: 20
+co452Lab.setInstructor("Derek");
+studentCharlie.changeName("Charles");
+co452Lab.printList();
+Lab class Friday, 11am
+Instructor: Derek   Room: G301
+Class list:
+Charles, student ID: 2901, credits: 20
+Joe, student ID: 2902, credits: 20
+Jack, student ID: 2093, credits: 20
+Number of students: 3
+Course course = new Course("Cyber Security", "G449");
+Student studentJack = new Student("Jack", "2904");
+Course course = new Course("Cyber Security", "G449");
+Course course = new Course("Cyber Security", "G449");
+Student studentJack = new Student("Jack", "2904");
+course.print();
+Course: Cyber Security G449
+studentJack.addCredits(20);
+course.print();
+Course: Cyber Security G449
+studentJack.enrolOnCourse(course);
